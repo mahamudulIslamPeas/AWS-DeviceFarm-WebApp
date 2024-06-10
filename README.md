@@ -1,5 +1,5 @@
 
-# PenCs Cosumer Portal Web App UI Automation
+# AWS Device Farm Web App UI Automation - Mobile Devices
 
 The web application automated testing project is designed to provide comprehensive coverage across all user flows, ensuring thorough testing of the application's functionality. With the ability to run on real mobile and tablet devices in parallel using AWS Device Farm, the project offers scalability and efficiency in test execution. The test script is compatible with any Android device available on AWS Device Farm, allowing for broad device coverage and ensuring that the application performs optimally across various device configurations. By leveraging AWS Device Farm's capabilities for parallel execution, the project enables efficient testing across multiple devices simultaneously, reducing test execution time and accelerating the overall testing process. With its focus on user flow coverage and compatibility with AWS Device Farm, the project aims to deliver reliable and robust automated testing solutions for web applications, ensuring high-quality user experiences across different devices and platforms.
 
