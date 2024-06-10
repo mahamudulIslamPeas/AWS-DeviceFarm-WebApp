@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All User Flow">
+    <test verbose="2" preserve-order="true"
+          name="PenCs-UIAutomation-java-appium">
+        <classes>
+            <class name="webAppTestCases.LoginTestCase">
+                <methods>
+                    <include name="landingPageTestRunForLoginFlow"/>
+                    <include name="enterLoginFlow"/>
+                    <include name="setupCredential"/>
+                    <include name="otpVerificationLoginFlow"/>
+                    <include name="patientIdentificationLoginFlow"/>
+                </methods>
+            </class>
+            <class name="webAppTestCases.PassResetTestCase">
+                <methods>
+                    <include name="stepsBeforeResetFlow"/>
+                    <include name="enterResetFlow"/>
+                    <include name="otpVerificationPassResetFlow"/>
+                    <include name="resettingPassword"/>
+                </methods>
+            </class>
+            <class name="webAppTestCases.SignupTestCase">
+                <methods>
+                    <include name="landingPageTestRunForSignupFlow"/>
+                    <include name="signupFormFillupTest"/>
+                    <include name="otpVerificationSignupFlow"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
